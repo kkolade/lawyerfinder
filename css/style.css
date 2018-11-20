@@ -1,0 +1,154 @@
+.navbar {
+  opacity: 0.75;
+  z-index: 1000;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.navbar .nav-item .active {
+  border-bottom: #fff 3px solid;
+}
+
+/* #showcase {
+  position: relative;
+} */
+
+.carousel-item {
+  height: 550px;
+}
+
+.carousel-image-1 {
+  background: url(../img/bg-image-1.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../img/bg-image-2.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/bg-image-3.jpeg);
+  background-size: cover;
+}
+
+.showcase-text {
+  margin-bottom: 250px;
+}
+
+/* #showcase .dark-overlay {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  background: rgba(0, 0, 0, 0.7)
+} */
+
+.section-border-buttom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.quick-action-item {
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#top-rated .card:hover {
+  background: #6c757d;
+  color: #fff;
+}
+
+#top-rated .fas {
+  color: #fff;
+}
+
+#find-a-lawyer #find-a-alwyer-table {
+  border: #6c757d 1px solid;
+}
+
+#lawyer-register-form {
+  background-color: #fff;
+}
+
+#showcase-2 {
+  position: relative;
+  background: url(../img/banner-image-1.jpg);
+  min-height: 550px;
+  background-size: cover;
+}
+
+.primary-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header #blog-header-image {
+  width: 300;
+}
+
+/* magamenu style */
+
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.navbar .dropdown-menu {
+  border: none;
+  background-color: #343a40 !important;
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.25rem;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  }
+
+  .navbar .dropdown-menu {
+    width: 80%;
+    margin: 0 auto;
+    /*  height of nav-item  */
+    top: 45px;
+
+    display: block;
+    visibility: hidden;
+    opacity: 0.9;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  /* shows the dropdown menu on hover */
+  .navbar .dropdown:hover .dropdown-menu,
+  .navbar .dropdown .dropdown-menu:hover {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+}

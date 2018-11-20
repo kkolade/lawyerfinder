@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LawyerFinder | Free Legal Advise from reputable Lawyers</title>
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Fonts and icons -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS Files goes here -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <header>
+
+           <!-- top navigation -->
+    <nav class="navbar navbar-expand-md navbar-light fiexd-top py-0">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse1">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary ml-2" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                <ul class="navbar-nav ml-auto">
+                    <a href="lawyer-signup.html" class="nav-link ml-1 mt-2">Lawyer Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ml-3">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ml-3">Contact</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link ml-3">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fiexd-top py-2">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/sitelogo.png" width="40" height="40" alt="">
+                    <h3 class="d-inline align-middle">LawyerFinder</h3>
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle ml-2" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find a Lawyer</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                                        <div class="container">
+                                          <div class="row">
+                                            <div class="col-md-3">
+                                              <span class="text-uppercase text-white">Category 1</span>
+                                              <ul class="nav flex-column">
+                                              <li class="nav-item">
+                                                <a class="nav-link active" href="#">Active</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                            </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                              <span class="text-uppercase text-white">Category 2</span>
+                                              <ul class="nav flex-column">
+                                              <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                            </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                    <span class="text-uppercase text-white">Category 3</span>
+                                                    <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                  </ul>
+                                                  </div>
+                                                   <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                    <span class="text-uppercase text-white">Category 4</span>
+                                                    <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                  </ul>
+                                                  </div>
+                                                  
+                                           
+                                          </div>
+                                        </div>
+                                        <!--  /.container  -->
+                              
+                              
+                                      </div>
+                            </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle ml-2" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Legal Advice</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+                                    <div class="container">
+                                      <div class="row">
+                                        <div class="col-md-3">
+                                          <span class="text-uppercase text-white">Category 1</span>
+                                          <ul class="nav flex-column">
+                                          <li class="nav-item">
+                                            <a class="nav-link active" href="#">Active</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                        </ul>
+                                        </div>
+                                        <!-- /.col-md-3  -->
+                                        <div class="col-md-3">
+                                          <span class="text-uppercase text-white">Category 2</span>
+                                          <ul class="nav flex-column">
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                        </ul>
+                                        </div>
+                                        <!-- /.col-md-3  -->
+                                        <div class="col-md-3">
+                                                <span class="text-uppercase text-white">Category 3</span>
+                                                <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Link item</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Link item</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Link item</a>
+                                                </li>
+                                              </ul>
+                                              </div>
+                                               <!-- /.col-md-3  -->
+                                        <div class="col-md-3">
+                                                <span class="text-uppercase text-white">Category 4</span>
+                                                <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Link item</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Link item</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Link item</a>
+                                                </li>
+                                              </ul>
+                                              </div>
+                                              
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle ml-2" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Legal Services</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                                        <div class="container">
+                                          <div class="row">
+                                            <div class="col-md-3">
+                                              <span class="text-uppercase text-white">Category 1</span>
+                                              <ul class="nav flex-column">
+                                              <li class="nav-item">
+                                                <a class="nav-link active" href="#">Active</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                            </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                              <span class="text-uppercase text-white">Category 2</span>
+                                              <ul class="nav flex-column">
+                                              <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#">Link item</a>
+                                              </li>
+                                            </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                    <span class="text-uppercase text-white">Category 3</span>
+                                                    <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                  </ul>
+                                                  </div>
+                                                   <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                    <span class="text-uppercase text-white">Category 4</span>
+                                                    <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                  </ul>
+                                                  </div>
+                                                  
+                                           
+                                          </div>
+                                        </div>
+                                                                  
+                              
+                                      </div>
+                            </li>
+                        <li class="nav-item">
+                            <a href="login-signup.html" class="nav-link">Login or Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+         <!-- showcase section -->
+
+    <section id="showcase">
+            <div class="dark-overlay">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel inner">
+                        <div class="carousel-item carousel-image-1 active">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-sm-block text-left text-secondary mb-5">
+                                    <h1 class="display-3">Heading One</h1>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                                        laborum
+                                        excepturi laboriosam pariatur consectetur amet labore assumenda natus officia
+                                        veritatis?</p>
+                                    <a href="talk-to-lawyer.html" class="btn btn-danger btn-lg">Talk to a Lawyer</a>
+                                    <a href="ask-free-question.html" class="btn btn-outline-danger btn-lg">Ask a free Question</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-image-2">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                    <h1 class="display-3">Heading Two</h1>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                                        laborum
+                                        excepturi laboriosam pariatur consectetur amet labore assumenda natus officia
+                                        veritatis?</p>
+                                    <a href="talk-to-lawyer.html" class="btn btn-danger btn-lg">Talk to a Lawyer</a>
+                                    <a href="ask-free-question.html" class="btn btn-outline-danger btn-lg">Ask a free Question</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="carousel-item carousel-image-3">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-sm-block text-left showcase-text">
+                                    <h1 class="display-3">Heading Three</h1>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                                        laborum
+                                        excepturi laboriosam pariatur consectetur amet labore assumenda natus officia
+                                        veritatis?</p>
+                                    <a href="talk-to-lawyer.html" class="btn btn-danger btn-lg">Talk to a Lawyer</a>
+                                    <a href="ask-free-question.html" class="btn btn-outline-danger btn-lg">Ask a free Question</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+    
+                    <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Quick action section -->
+        <section id="quick-action" class="py-3">
+            <div class="container section-border-buttom">
+                <div class="row">
+                    <div class="col-md-4 mb-2 text-center quick-action-item">
+                        <i class="fas fa-user-tie fa-3x mb-2"></i>
+                        <h3>Find a Lawyer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quibusdam!</p>
+                    </div>
+                    <div class="col-md-4 mb-2 text-center quick-action-item">
+                        <i class="fas fa-file-invoice-dollar fa-3x mb-2"></i>
+                        <h3>Get a Quote</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quibusdam!</p>
+                    </div>
+                    <div class="col-md-4 mb-2 text-center">
+                        <i class="fas fa-comments fa-3x mb-2"></i>
+                        <h3>Quick Consult</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quibusdam!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </header>
+
+      <!-- Top Rated section -->
+    <section id="top-rated" class="py-2 text-center">
+            <div class="container section-border-buttom">
+                <div class="row">
+                    <div class="col mb-2">
+                        <div class="info-header mb-4">
+                            <h1 class="text-dark display-4">
+                                Meet our Top Rated Lawyers
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 pr-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/lawyer11.jpg" alt="" class="img-fluid rounded-circle w-50 mb-2 media-left">
+                                <h3>Susan Williams</h3>
+                                <div class="text-left">
+                                    <h6 class="text-muted">PRACTICE AREA: Divorce +3</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star"></i>
+                                            4.2 | 4+ consults
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-map-marker-alt text-success"></i>
+                                            Victoria, Island Lagos.
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-business-time text-success"></i>
+                                            15+ Years of experience
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-secondary btn-block mt-2">More Immigration Lawyers...</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pr-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/lawyer11.jpg" alt="" class="img-fluid rounded-circle w-50 mb-2 media-left">
+                                <h3>Susan Williams</h3>
+                                <div class="text-left">
+                                    <h6 class="text-muted">PRACTICE AREA: Divorce +3</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star"></i>
+                                            4.2 | 4+ consults
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-map-marker-alt text-success"></i>
+                                            Victoria, Island Lagos.
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-business-time text-success"></i>
+                                            15+ Years of experience
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-secondary btn-block mt-2">More Immigration Lawyers...</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pr-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/lawyer11.jpg" alt="" class="img-fluid rounded-circle w-50 mb-2 media-left">
+                                <h3>Susan Williams</h3>
+                                <div class="text-left">
+                                    <h6 class="text-muted">PRACTICE AREA: Divorce +3</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star"></i>
+                                            4.2 | 4+ consults
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-map-marker-alt text-success"></i>
+                                            Victoria, Island Lagos.
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-business-time text-success"></i>
+                                            15+ Years of experience
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-secondary btn-block mt-2">More Immigration Lawyers...</a>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 pr-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/lawyer11.jpg" alt="" class="img-fluid rounded-circle w-50 mb-2 media-left">
+                                <h3>Susan Williams</h3>
+                                <div class="text-left">
+                                    <h6 class="text-muted">PRACTICE AREA: Divorce +3</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star"></i>
+                                            4.2 | 4+ consults
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-map-marker-alt text-success"></i>
+                                            Victoria, Island Lagos.
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-business-time text-success"></i>
+                                            15+ Years of experience
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-secondary btn-block mt-2">More Immigration Lawyers...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!-- Find a Lawyer Section -->
+        <section id="find-a-lawyer mb-5"></section>
+        <div class="container section-border-buttom">
+            <div class="row my-4">
+                <div class="col">
+                    <div class="info-header mb-4">
+                        <h1 class="text-dark text-center display-4">
+                            Find a Lawyer by
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4" id="find-a-alwyer-table">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" id="city-tab" data-toggle="tab" href="#city" role="tab" aria-controls="city"
+                                aria-selected="true">City</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="practice-tab" data-toggle="tab" href="#practice" role="tab"
+                                aria-controls="practice" aria-selected="false">Area of Practice</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="city" role="tabpanel" aria-labelledby="city-tab">
+                            <div class="row">
+                                <div class="col-md-4 sm-12">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 sm-12">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 sm-12">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-map-marker-alt text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="practice" role="tabpanel" aria-labelledby="practice-tab">
+                            <div class="row">
+                                <div class="col-md-4 sm-12">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 sm-12">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 sm-12">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-balance-scale text-secondary"></i>
+                                            Dapibus ac facilisis in
+                                            <span class="badge badge-primary badge-pill">14</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4 sm-md-12"></div>
+            <div class="col-md-4 sm-md-12">
+                <a href="#" class="btn btn-outline-secondary btn-block">Search from other Cities</a>
+            </div>
+            <div class="col-md-4 sm-md-12"></div>
+        </div>
+        </div>
+    
+        <!-- Answers Section -->
+        <section id="answers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center my-3">
+                        <h1 class="display-4">Ready Answers to your Legal Questions</h1>
+                        <p class="lead">Over 5,000 Questions answered Already</p>
+                    </div>
+                </div>
+                <div class="row m-4">
+                    <div class="col-md-6 sm-12">
+                        <h3>
+                            <i class="fas fa-question-circle fa-2x mb-2 text-secondary"></i>
+                            After paying to an agent...</h3>
+                        <p class="small">Property Question</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ut nobis debitis deleniti expedita
+                            laboriosam aut accusamus doloribus in similique veniam dolor distinctio optio, earum error
+                            delectus! Dignissimos, a voluptatibus?</p>
+                        <a href="#" class="btn btn-link">Read more...</a>
+                    </div>
+                    <div class="col-md-6 sm-12">
+                        <h3>
+                            <i class="fas fa-question-circle fa-2x mb-2 text-secondary"></i>
+                            After paying to an agent...</h3>
+                        <p class="small">Property Question</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ut nobis debitis deleniti expedita
+                            laboriosam aut accusamus doloribus in similique veniam dolor distinctio optio, earum error
+                            delectus! Dignissimos, a voluptatibus?</p>
+                        <a href="#" class="btn btn-link">Read more...</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="ask-free-question.html" class="btn btn-secondary px-4 py-2 mx-4">Got a Question?</a>
+                        <a href="#" class="btn btn-outline-secondary px-4 py-2 mx-2">See more Answers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+    
+    
+
+
+ <!-- All JavaScript Files goes here -->
+
+    <!-- Core JS Files -->
+    <script src="vendor/jquery/jquery-3.3.1.js"></script>
+    <script src="vendor/popper/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Date picker -->
+    <script>
+        $('#year').text(new Date().getFullYear());
+    </script>
+
+    <!-- configure slider -->
+    <script>
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: 'hover'
+        });
+    </script>
+
+    <!-- onload trigger -->
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            $('exampleModalCenter').modal('show');
+        });
+    </script>
+
+
+  </body>
+</html>
